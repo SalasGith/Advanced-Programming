@@ -2,7 +2,7 @@ import java.io.*;
 import java.net.*;
 import java.util.Scanner;
 
-public class NameServer {
+public class Server {
     public static void main(String[] args) {
         try (ServerSocket serverSocket = new ServerSocket(3999)) {
             System.out.println("Server started. Waiting for clients...");
